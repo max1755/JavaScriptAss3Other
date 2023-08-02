@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #CAFAFE;
+}
+h1{
+  text-align: center; 
+  color:  #FC4445;
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  
+}
+
+button {
+  margin-left: 10px;
+}
+
+#todoList {
+  margin-top: 20px;
+}
+
+.task {
+  margin-top: 10px;
+  
+}
+
+.task.checked {
+  color: green;
+  text-decoration: line-through;
+}
+
+.task.deleting {
+  color: red;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+ul {
+  list-style: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks, .completed-tasks {
+    width: 45%;
+}
+
+button, input[type="text"] {
+  border-radius: 15px; 
+  padding: 10px; 
+  border: none; 
+  font-size: 15px; 
+}
+
+button {
+  background-color: #008CBA; 
+  color: white;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: limegreen; 
+}
+
+input[type="text"] {
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasks, .completed-tasks {
+  width: 45%;
+  padding: 20px;
+  border-radius: 15px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  background-color: #f9f9f9; 
+}
+
+h2 {
+  color: #55BCC9;
+}
+
+.task {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #97CAEF;
+}
+
+.task.checked {
+  color: green;
+  text-decoration: line-through;
+}
+
+.task.deleting {
+  color: red;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+ul {
+  list-style: none;
+}
